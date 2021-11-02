@@ -1,4 +1,11 @@
 .question {
+  display: inline-block;
   margin: 10px;
-  color: red;
+}
+
+.question .question-title {
+}
+
+.choices {
+  margin: 20px;
 }

@@ -5,14 +5,31 @@
 
 <main>
   <Navbar active="home" />
-  <MultipleChoice
-    choices={[
-      { text: "george washington" },
-      { text: "abraham lincoln" },
-      { text: "andrew jackson" },
-      { text: "la madre" },
-    ]}
-  />
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <MultipleChoice
+          question="who was first president lol"
+          choices={[
+            { text: "george washington" },
+            { text: "abraham lincoln" },
+            { text: "andrew jackson" },
+            { text: "la madre" },
+          ]}
+        />
+      </div>
+      <div class="col">
+        <MultipleChoice
+          question="who was first president lol"
+          choices={[
+            { text: "george washington" },
+            { text: "abraham lincoln" },
+            { text: "andrew jackson" },
+            { text: "la madre" },
+          ]}
+        />
+      </div>
+      <div class="col">Column</div>
+    </div>
+  </div>
 </main>
-
-
